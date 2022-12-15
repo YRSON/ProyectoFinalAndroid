@@ -23,7 +23,7 @@ AdapterView.OnItemClickListener{
             when (it.itemId) {
 
                 R.id.Inicio -> replaceFragment(Inicio())
-                R.id.Pefil -> replaceFragment(Perfil())
+                R.id.Coach -> replaceFragment(CoachFragment())
                 R.id.Sugerencias -> replaceFragment(Sugerencias())
 
                 else -> {

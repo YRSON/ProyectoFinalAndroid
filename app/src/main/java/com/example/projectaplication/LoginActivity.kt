@@ -7,7 +7,6 @@ import android.view.View
 import android.widget.CheckBox
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.projectaplication.R
 import com.example.projectaplication.databinding.ActivityLoginBinding
 import com.example.projectaplication.db.entity.PersonaEntity
 import com.example.projectaplication.retrofit.response.ResponseLogin

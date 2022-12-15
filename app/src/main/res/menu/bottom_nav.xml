@@ -4,9 +4,9 @@
     <item android:title="Inicio"
         android:id="@+id/Inicio"
         android:icon="@drawable/ic_baseline_home_24"/>
-    <item android:title="Pefil"
-        android:id="@+id/Pefil"
-        android:icon="@drawable/ic_baseline_person_24"/>
+    <item android:title="Coach"
+        android:id="@+id/Coach"
+        android:icon="@drawable/coach"/>
     <item android:title="Sugerencias"
         android:id="@+id/Sugerencias"
         android:icon="@drawable/ic_baseline_lightbulb_24"/>
