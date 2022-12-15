@@ -11,5 +11,6 @@
     <color name="ocre">#DCC911</color>
 
     <color name="snackbarerror">#DF3333</color>
+    <color name="snackbarexito">#165497</color>
     <color name="snackbarsuccess">#095BBF</color>
 </resources>
