@@ -42,6 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
@@ -53,5 +54,76 @@
         app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/corazon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Ejercicios de Cardio"
+        android:textColor="@color/ocre"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Baile y Zumba"
+        android:textColor="@color/ocre"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/bicicleta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="Spining y Maquinas"
+        android:textColor="@color/ocre"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

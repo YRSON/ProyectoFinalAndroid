@@ -19,7 +19,7 @@ class Inicio : Fragment() {
         val bind = FragmentInicioBinding.inflate(layoutInflater)
 
         bind.imgRutinas.setOnClickListener{
-            val intent = Intent (this@Inicio.requireContext(), RutinasActivity::class.java)
+            val intent = Intent (this@Inicio.requireContext(), SeleccionRutinaActivity::class.java)
             startActivity(intent)
         }
 
