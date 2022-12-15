@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".CoachFragment">
+    tools:context=".SedeFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView
@@ -17,24 +17,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selecciona tu entrenador"
+        android:text="Selecciona tu Sede"
         android:textColor="@color/ocre"
         android:textStyle="bold"
-        android:textSize="27dp"
+        android:textSize="28dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="130dp"/>
+        android:layout_marginTop="135dp"/>
 
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:id="@+id/imgSanMiguel"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
         android:layout_marginTop="230dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/coach1"/>
+        android:src="@drawable/sanmiguel"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rodrigo Zuta - Miraflorez"
+        android:text="Sede San Miguel"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="258dp"
@@ -43,16 +44,17 @@
         android:textStyle="bold"/>
 
     <ImageView
+        android:id="@+id/imgMiraflores"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginTop="340dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/coach2"/>
+        android:src="@drawable/sedemiraflores"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Patricia Lee - San Miguel"
+        android:text="Sede Miraflores"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="370dp"
@@ -61,16 +63,17 @@
         android:textStyle="bold"/>
 
     <ImageView
-        android:layout_width="80dp"
+        android:id="@+id/imgLima"
+        android:layout_width="89dp"
         android:layout_height="80dp"
         android:layout_marginTop="450dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/coach3"/>
+        android:src="@drawable/sedelima"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Anibal Zegarra - SJL"
+        android:text="Sede Lima"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="480dp"
@@ -79,22 +82,22 @@
         android:textStyle="bold"/>
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:id="@+id/imgSjl"
+        android:layout_width="89dp"
+        android:layout_height="80dp"
         android:layout_marginTop="560dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/coach4"/>
+        android:src="@drawable/sedesjl"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Braulio Cortez - Lima"
+        android:text="Sede SJL"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="595dp"
         android:layout_marginLeft="40dp"
         android:textColor="@color/ocre"
         android:textStyle="bold"/>
-
 
 </FrameLayout>

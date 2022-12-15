@@ -7,6 +7,9 @@
     <item android:title="Coach"
         android:id="@+id/Coach"
         android:icon="@drawable/coach"/>
+    <item android:title="Sede"
+        android:id="@+id/Sede"
+        android:icon="@drawable/ic_baseline_location_on_24"/>
     <item android:title="Sugerencias"
         android:id="@+id/Sugerencias"
         android:icon="@drawable/ic_baseline_lightbulb_24"/>

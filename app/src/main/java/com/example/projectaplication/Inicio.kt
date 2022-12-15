@@ -16,6 +16,8 @@ class Inicio : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
+        //this code error
+
         val bind = FragmentInicioBinding.inflate(layoutInflater)
 
         bind.imgRutinas.setOnClickListener{
@@ -27,8 +29,6 @@ class Inicio : Fragment() {
             val intent = Intent (this@Inicio.requireContext(), SoporteActivity::class.java)
             startActivity(intent)
         }
-
-
         return bind.root
     }
 

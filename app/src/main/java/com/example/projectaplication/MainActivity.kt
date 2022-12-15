@@ -24,6 +24,7 @@ AdapterView.OnItemClickListener{
 
                 R.id.Inicio -> replaceFragment(Inicio())
                 R.id.Coach -> replaceFragment(CoachFragment())
+                R.id.Sede -> replaceFragment(SedeFragment())
                 R.id.Sugerencias -> replaceFragment(Sugerencias())
 
                 else -> {
